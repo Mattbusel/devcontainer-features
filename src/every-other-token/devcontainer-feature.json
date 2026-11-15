@@ -1,0 +1,30 @@
+{
+    "id": "every-other-token",
+    "version": "1.0.0",
+    "name": "every-other-token (LLM token confidence)",
+    "description": "Installs every-other-token, a CLI that intercepts an OpenAI or Anthropic stream and shows how confident the model was about each token, from logprobs. A mock provider needs no API key.",
+    "documentationURL": "https://github.com/Mattbusel/devcontainer-features/blob/main/docs/every-other-token.md",
+    "licenseURL": "https://github.com/Mattbusel/Every-Other-Token/blob/main/LICENSE",
+    "keywords": [
+        "llm",
+        "logprobs",
+        "tokens",
+        "interpretability",
+        "openai",
+        "cli"
+    ],
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Release to install, e.g. 1.2.2. 'latest' follows the newest GitHub release of Mattbusel/Every-Other-Token."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/rust"
+    ]
+}

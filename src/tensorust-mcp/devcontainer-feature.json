@@ -1,0 +1,29 @@
+{
+    "id": "tensorust-mcp",
+    "version": "1.0.0",
+    "name": "Tensorust Ontology MCP server",
+    "description": "Adds the remote Tensorust Ontology MCP server to VS Code in the container: who owns and controls US companies and property from public records, BDC loan marks, banned-vendor exposure and a 145-dataset catalog. Free previews work with no key.",
+    "documentationURL": "https://github.com/Mattbusel/devcontainer-features/blob/main/docs/tensorust-mcp.md",
+    "licenseURL": "https://github.com/Mattbusel/devcontainer-features/blob/main/LICENSE",
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "copilot",
+        "agent",
+        "data",
+        "ownership"
+    ],
+    "options": {},
+    "customizations": {
+        "vscode": {
+            "mcp": {
+                "servers": {
+                    "tensorust": {
+                        "type": "http",
+                        "url": "https://shop.tensorust.com/api/mcp"
+                    }
+                }
+            }
+        }
+    }
+}

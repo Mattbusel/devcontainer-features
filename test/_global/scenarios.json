@@ -1,0 +1,11 @@
+{
+    "all-features": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "llm-dash": {},
+            "tokio-prompt-orchestrator": {},
+            "every-other-token": {},
+            "tensorust-mcp": {}
+        }
+    }
+}

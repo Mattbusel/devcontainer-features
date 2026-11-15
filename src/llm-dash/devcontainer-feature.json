@@ -1,0 +1,30 @@
+{
+    "id": "llm-dash",
+    "version": "1.0.0",
+    "name": "llm-dash (LLM cost dashboard)",
+    "description": "Installs llm-dash, which prices every LLM API call in your request logs and shows spend and budget alerts in a terminal dashboard.",
+    "documentationURL": "https://github.com/Mattbusel/devcontainer-features/blob/main/docs/llm-dash.md",
+    "licenseURL": "https://github.com/Mattbusel/llm-cost-dashboard/blob/master/LICENSE",
+    "keywords": [
+        "llm",
+        "openai",
+        "anthropic",
+        "cost",
+        "tokens",
+        "observability"
+    ],
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Release to install, e.g. 1.2.2. 'latest' follows the newest GitHub release of Mattbusel/llm-cost-dashboard."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/rust"
+    ]
+}

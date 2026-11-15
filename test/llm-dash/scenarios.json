@@ -1,0 +1,10 @@
+{
+    "llm-dash-pinned": {
+        "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+        "features": {
+            "llm-dash": {
+                "version": "1.2.2"
+            }
+        }
+    }
+}
